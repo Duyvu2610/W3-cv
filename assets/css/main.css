@@ -1,0 +1,167 @@
+/* Resest css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  background-color: #f0f0f0;
+}
+hr {
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+p {
+  margin: 15px 0;
+}
+i {
+  color: #009688;
+  width: 30px;
+  font-size: 18px;
+}
+.red {
+  background-color: rgba(255, 0, 0, 0.596) !important;
+}
+.pb15 {
+  padding-bottom: 15px;
+}
+.header {
+  margin: 15px 0;
+}
+.info {
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.p16 {
+  padding: 0 16px;
+}
+.m16 {
+  margin-bottom: 16px;
+}
+.info__img-name {
+  position: relative;
+}
+.info__img-name img {
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.info__img-name h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f1f1f1;
+}
+.info__skills {
+  padding: 0 16px;
+  padding-bottom: 16px;
+}
+
+.info__skills .percent {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  border-radius: 16px;
+}
+.total {
+  text-align: center;
+  border-radius: 16px;
+  background-color: #009688;
+  color: #fff;
+  line-height: 1.5;
+}
+.info__skills .java {
+  width: 60%;
+}
+.info__skills .python {
+  width: 50%;
+}
+.info__skills .html {
+  width: 40%;
+}
+.info__skills .javascript {
+  width: 30%;
+}
+.info__skills .english {
+  width: 20%;
+}
+.info__skills .korea {
+  width: 15%;
+}
+.info__skills .vn {
+  width: 95%;
+}
+.large {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 30px;
+  opacity: 0.6;
+}
+.large > i {
+  font-size: 30px;
+  width: 42px;
+}
+.exp__education,
+.exp__work {
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.about {
+  margin: 10px 0;
+  font-size: 22px;
+  opacity: 0.6;
+}
+.normal {
+  color: #009688;
+  line-height: 2;
+}
+span {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-align: center;
+}
+span:hover {
+  opacity: 0.6;
+}
+.footer {
+  background-color: #009688;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.social {
+  margin: 10px 0;
+}
+.social a i {
+  color: #fff;
+  width: 18px;
+}
+.face:hover {
+  color: blue;
+}
+.git:hover {
+  color: black;
+}
+.ins:hover {
+  color: #ee2a7b;
+}
+.link {
+  color: #fff;
+}
+.link:hover {
+  color: #000;
+}
+@media (max-width: 739px) {
+  .exp__work {
+    margin-top: 16px;
+  }
+}
